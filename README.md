@@ -10,6 +10,9 @@ Automatic subtitle downloader
 
 # Install
   ```bash
+  mkdir build && cd build
+  cmake ..
+  make
   sudo ln -s $(pwd)/libfoo_plugin.so /usr/lib/vlc/plugins/misc/
   ```
 
